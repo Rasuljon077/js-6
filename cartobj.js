@@ -28,17 +28,10 @@ function cartObj() {
       }
     } 
 
-    if (rand == 1) {
-        console.log(`sizning buyurtmangiz: lavash${chesee},`);
-        console.log();
-    }else{
-        console.log(`sizning buyurtmangiz ${priceList[2]}`);
-    }
     return priceList[rand]
   }
   
   function randomNumbers(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
-  console.log(cartObj());
  

@@ -1,9 +1,9 @@
-// let user = prompt("misollarni yechishga harak qilib koring")
+let user = alert("misollarni yechishga harak qilib koring")
 let user2 = +prompt("necta misollar ishlamoqchisiz")
 
-// while (isNaN(user2) || user2 == "0") {
-//     user2 = prompt("iltimos qayta son kirgazing")
-// }
+while (isNaN(user2) || user2 == "0") {
+    user2 = prompt("iltimos qayta son kirgazing")
+}
 
 for (let i = 0; i <= user2; i++) {
     
@@ -114,3 +114,4 @@ for (let i = 1; i <= 10; i++) {
    console.log(o);
    console.log(u);
 }
+
